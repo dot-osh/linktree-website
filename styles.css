@@ -1,0 +1,60 @@
+body {
+    background: url("https://drive.google.com/uc?export=view&id=1rKo_096j9kn0YE4AFKW2zRLyCuWWykqk") no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+color: #fb8500;
+font-family: "Open Sans", sans-serif;
+
+letter-spacing: 2px;
+}
+
+.profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+margin-top: 10%;
+height: auto;
+max-width: 100px;
+
+border-radius: 50%;
+}
+
+.profile-name{
+text-align: center;
+
+padding: 30px;
+font-size: 28px;
+}
+
+.links {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #ffffff;
+    border: 1px solid #fb8500;
+    border-width: 2px;
+    padding: 20px;
+    box-shadow: 2px 5px 5px #d8d8d8;
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 40px;
+
+    font-size: 16px;
+}
+
+a {
+text-decoration: none;
+color: orange;
+transition: color 1s;
+}
+
+a:hover {
+color: #ffffff;
+background-color: #fb8500;
+}
